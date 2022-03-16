@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.postgresql', name: 'postgresql', version: '9.3-1100-jdbc4'
+    implementation 'com.oracle.database.jdbc:ojdbc8:19.6.0.0'
+}
